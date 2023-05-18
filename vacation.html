@@ -1,0 +1,317 @@
+<html>
+<head>
+<title>Welcome To My Casa Page</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<p align="center"><img src="image/travelling.jpg" hspace="0" vspace="0" width="95%" height="80%">
+
+<style> 
+body { 
+        background-image:url("image/beach.jpg"); 
+        background-size: cover; width="100%" height="100%"
+        background-repeat: no-repeat; 
+  margin: 0; 
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+<style>
+body {margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 75%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #00bfff;
+  color: white;
+}
+
+.instagram {
+  background: #ff0090;
+  color: white;
+}
+
+.youtube {
+  background: #ed1c24;
+  color: white;
+
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/nur.athirah.3551380?mibextid=LQQJ4d" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://instagram.com/tyrayatim?igshid=NTc4MTIwNjQ2YQ==" class="instagram"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.youtube.com/@nurathirah6017" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+<embed src="music/2soon.mp3" hidden="true"></embed>
+
+<table width ="95%" border = "0" align="center">
+<tr>
+<td bgcolor="#FDEDEC">
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+background-image: url("background/home.jpg");
+height: 40%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+</head>
+
+
+
+<body>
+<div class="bg"></div>
+<body table background="background/white.jpg" width="50%" height="50%">
+<table width ="85%" border = "0" align="center">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #D98880;
+}
+
+.topnav a {
+  float: left;
+  color: #641E16;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Broadway"}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #ff1493;
+  width: 10%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: dark cyan;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #adff2f;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ffffe0;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: 0;
+  height: 1000px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen"><a href="index.html">Home</a></button>
+  <button class="tablinks" onclick="openCity(event, 'About Myself')"><a href="aboutme.html">About Me</a></button>
+  <button class="tablinks" onclick="openCity(event, 'Education')"><a href="education.html">Education</a></button>
+  <button class="tablinks" onclick="openCity(event, 'Business')"><a href="business.html">Business</a></button>
+  <button class="tablinks" onclick="openCity(event, 'Vacation')"><a href="vacation.html">Vacation</a></button>
+  <button class="tablinks" onclick="openCity(event, 'Friends')"><a href="friends.html">Friends</a></button>
+</div>
+
+<div id="Home">
+</div>
+
+<div id="About Myself">
+</div>
+
+<div id="Education">
+</div>
+
+<div id="Business">
+</div>
+
+<div id="Vacation">
+</div>
+
+<div id="Friends">
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<style>
+body {margin:25px;}
+
+div.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+</style>
+</head>
+<body>
+
+<br><br>
+<center>
+  <div style="text-align:center">
+    <font color="Antique Bronze" face="Elephant">
+      <h1 style="font-size: 50px;">VACATION MODE ONSS!!!</h1>
+    </font>
+  </div>
+</center>
+
+
+<head>
+  <title>Travelling</title>
+</head>
+<body>
+  <center><img src="image/bannertravel.jpg" alt="Travelling" hspace="400" align="left" width="300" height="300"></center>
+
+<br><br><br><br>
+<table  style="border:1;border-collapse: collapse"  width="1000" height ="300" align ="center"  bgcolor="#7fffd4"  align="center" border-collapdse="collapse">
+
+<tr>
+<td align="center" width="400" height="500" ><img src="image/cherating.jpg" width="400" height="500" > <p> Cherating Beach </p></td>
+<td align="center" width="400" height="500"><img src="image/pulautioman.jpg" width="400" height="500" ><p> Tioman Beach</p></td>
+
+<table  style="border:1;border-collapse: collapse"  width="1000" height ="600" align ="center"  bgcolor="#7fffd4"  align="center" border-collapdse="collapse">
+
+<td align="center" width="400" height="500"><img src="image/pantaicenang.jpg" width="400" height="500" ><p> Chenang Beach </p></td>
+<td align="center" width="400" height="500" ><img src="image/acheh.jpg" width="400" height="500" > <p> Acheh </p></td>
+
+<table  style="border:1;border-collapse: collapse"  width="1000" height ="600" align ="center"  bgcolor="#7fffd4"  align="center" border-collapdse="collapse">
+
+<td align="center" width="400" height="500"><img src="image/makkah.jpg" width="400" height="500" ><p> Makkah </p></td>
+<td align="center" width="400" height="500"><img src="image/madinah.jpg" width="400" height="500" ><p> Madinah </p></td>
+
+</td>
+</tr>
+</table>
+
+<br><br>
+<style>
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 class="glow">Vacation is the best thing ever for me because it can release the stress.We travel not to escape life but for life not escape us.</h1>
+
+
+</body>
+</html>
